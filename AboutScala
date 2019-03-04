@@ -49,3 +49,24 @@ Closure − A closure is a function, whose return value depends on the value of 
 
 Traits − A trait encapsulates method and field definitions, which can then be reused by mixing them into classes. Traits are used to define object types by specifying the signature of the supported methods.
 
+
+First program:
+object HelloWorld {
+   /* This is my first java program.  
+   * This will print 'Hello World' as the output
+   */
+   def main(args: Array[String]) {
+      println("Hello, world!") // prints Hello World
+   }
+}
+
+Save the file as − HelloWorld.scala.
+
+Open the command prompt window and go to the directory where the program file is saved. 
+The ‘scalac’ command is used to compile the Scala program and it will generate a few class files in the current directory.
+One of them will be called HelloWorld.class. This is a bytecode which will run on Java Virtual Machine (JVM) using ‘scala’ command.
+
+Use the following command to compile and execute your Scala program.
+
+\> scalac HelloWorld.scala
+\> scala HelloWorld
